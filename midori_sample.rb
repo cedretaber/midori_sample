@@ -10,10 +10,4 @@ end
 Midori::Configure.bind = "0.0.0.0"
 
 runner = Midori::Runner.new(HelloWorldAPI)
-
-Thread.new do
-  runner.start
-end
-
-gets
-runner.stop
+runner.start
