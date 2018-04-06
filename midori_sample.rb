@@ -1,4 +1,3 @@
-# hello_midori.rb
 require 'midori'
 
 class HelloWorldAPI < Midori::API
