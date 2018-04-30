@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    midori.rb (0.5.3)
+      midori_http_parser (~> 0.6.1)
+      murasaki (~> 0.2)
+      mustermann (~> 1.0)
+    midori_http_parser (0.6.2)
+    murasaki (0.2.0)
+      nio4r (~> 2.0)
+    mustermann (1.0.2)
+    nio4r (2.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  midori.rb
+
+BUNDLED WITH
+   1.16.1
